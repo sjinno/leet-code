@@ -4,7 +4,7 @@ fn is_palindrome(x: i32) -> bool {
         n if n < 0 => return false,
         _ => {}
     }
-    
+
     let mut rems = vec![];
     let mut num = x;
 
