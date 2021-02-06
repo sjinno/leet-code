@@ -1,3 +1,5 @@
+fn main() {}
+
 #[rustfmt::skip]
 fn is_valid(s: String) -> bool {
     let mut stack = vec![];

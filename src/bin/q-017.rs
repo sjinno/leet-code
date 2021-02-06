@@ -45,6 +45,54 @@
 
 //         return ans if tmp == [] else tmp
 
+// class Solution:
+//     def letterCombinations(self, digits: str) -> List[str]:
+//         from collections import deque
+
+//         # If digits is empty, return [].
+//         if digits == "":
+//             return []
+
+//         stack = []
+//         for d in digits:
+//             if d == '2':
+//                 stack.append('abc')
+//             elif d == '3':
+//                 stack.append('def')
+//             elif d == '4':
+//                 stack.append('ghi')
+//             elif d == '5':
+//                 stack.append('jkl')
+//             elif d == '6':
+//                 stack.append('mno')
+//             elif d == '7':
+//                 stack.append('pqrs')
+//             elif d == '8':
+//                 stack.append('tuv')
+//             elif d == '9':
+//                 stack.append('wxyz')
+
+//         ans = deque(ch for ch in stack.pop())
+//         # If stack is empty, that means digits has the length of 1.
+//         # So return tmp.
+//         if stack == []:
+//             return ans
+
+//         while stack != []:
+//             count = 0
+//             length = len(ans)
+//             chars = stack.pop()
+
+//             while count != length:
+//                 c = ans.popleft()
+//                 for ch in chars:
+//                     ans.append(ch + c)
+//                 count += 1
+
+//         return ans
+
+fn main() {}
+
 fn letter_combinations(digits: String) -> Vec<String> {
     if digits.is_empty() {
         return vec![];

@@ -1,3 +1,5 @@
+fn main() {}
+
 fn is_palindrome(x: i32) -> bool {
     match x {
         (0..=9) => return true,

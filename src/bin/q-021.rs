@@ -22,6 +22,7 @@
 //         l2 = l2.next
 
 //     return tmp.next
+fn main() {}
 
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]

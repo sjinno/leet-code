@@ -1,3 +1,5 @@
+fn main() {}
+
 fn reverse(x: i32) -> i32 {
     let res = x
         .to_string()
